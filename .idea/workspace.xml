@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.184: Maps&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.185: Map Continued and Adventure Game&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/HeavenlyBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14180/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14180/MapProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapProgram">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.Main" />
+      <module name="Section14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crg.rla.section14190.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section14180.MapProgram" />
       <module name="Section14" />
@@ -68,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MapProgram" />
         <item itemvalue="Application.crg.rla.section14180.Main" />
       </list>
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678598120737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completing Section 14.185: Map Continued and Adventure Game&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1678671309434</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678671309434</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +160,7 @@
     <MESSAGE value="Completing Section 14.182: Collections List Methods&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.183: Comparable and Comparator&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.184: Maps&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.184: Maps&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.185: Map Continued and Adventure Game&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.185: Map Continued and Adventure Game&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

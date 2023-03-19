@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.197: Sets &amp; HashSet&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.191: HashSet - equals() and hashCode()&#10;&#10;(introducing equals())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crg/rla/section14190/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14190/HeavenlyBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14190/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.Main" />
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678775582023</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completing Section 14.191: HashSet - equals() and hashCode()&#10;&#10;(introducing equals())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1678783846794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678783846794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +177,7 @@
     <MESSAGE value="Completing Section 14.185: Map Continued and Adventure Game&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.190: Sets &amp; HashSet&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.197: Sets &amp; HashSet&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.197: Sets &amp; HashSet&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.191: HashSet - equals() and hashCode()&#10;&#10;(introducing equals())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.191: HashSet - equals() and hashCode()&#10;&#10;(introducing equals())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.192: Finish off equals() and hashCode()&#10;&#10;(introducing hashCode())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/DogMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Labrador.java" afterDir="false" />
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.193: Potential issue with equals() and subclassing&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14190/SetMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DogMain">
+  <component name="RunManager" selected="Application.SetMain">
     <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.DogMain" />
       <module name="Section14" />
@@ -83,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.SetMain" />
+      <module name="Section14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crg.rla.section14190.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="crg.rla.section14180.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section14180.Main" />
       <module name="Section14" />
@@ -98,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetMain" />
         <item itemvalue="Application.DogMain" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MapProgram" />
@@ -177,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679203648779</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completing Section 14.193: Potential issue with equals() and subclassing&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1679205306968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679205306968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +221,7 @@
     <MESSAGE value="Completing Section 14.197: Sets &amp; HashSet&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.191: HashSet - equals() and hashCode()&#10;&#10;(introducing equals())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.192: Finish off equals() and hashCode()&#10;&#10;(introducing hashCode())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.192: Finish off equals() and hashCode()&#10;&#10;(introducing hashCode())&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.193: Potential issue with equals() and subclassing&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.193: Potential issue with equals() and subclassing&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

@@ -81,7 +81,6 @@ public class SetMain {
             System.out.println("intersection is a subset of divine");
         }
 
-
     }
 
     private static void printSet(Set<String> set) {

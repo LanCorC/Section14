@@ -122,8 +122,7 @@ public class Main {
 //                    + temp.getOrbitalPeriod());
 //        }
         //Because the map uses the name for the key, same name => replace.
-        //Only the asteroid listed
-        //Test case 4: FAIL TODO
+        //
 
         //This implement is for the set (not a key:value relationship)
         //Test case 5: pass

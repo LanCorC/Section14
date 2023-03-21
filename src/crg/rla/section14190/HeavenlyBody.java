@@ -3,7 +3,7 @@ package crg.rla.section14190;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HeavenlyBody {
+public abstract class HeavenlyBody {
     private final String name;
     private final double orbitalPeriod;
     private final Set<HeavenlyBody> satellites;
@@ -26,13 +26,7 @@ public class HeavenlyBody {
     }
 
     public boolean addMoon(HeavenlyBody moon) {
-        if (bodyType == HeavenlyBodyType.PLANET &&
-                moon.bodyType == HeavenlyBodyType.MOON) {
-            return this.satellites.add(moon);
-        }
-        System.out.println(
-                "Invalid type: PLANETS can only have MOON satellites");
-        return false;
+        return this.satellites.add(moon);
     }
 
     public Set<HeavenlyBody> getSatellites() {
@@ -80,6 +74,16 @@ class Planet extends HeavenlyBody {
 
     public Planet(String name, double orbitalPeriod) {
         super(name, orbitalPeriod, HeavenlyBodyType.PLANET);
+    }
+
+    @Override
+    public boolean addMoon(HeavenlyBody moon) {
+        if (moon.getBodyType() == HeavenlyBodyType.MOON) {
+            return super.addMoon(moon);
+        }
+        System.out.println(
+                "Invalid type: PLANETS can only have MOON satellites");
+        return false;
     }
 }
 

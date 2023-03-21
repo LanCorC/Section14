@@ -48,15 +48,30 @@ public class SetChallenge {
 */
         //Attempt: test case 4 and 6
         Map<HeavenlyBody, Double> test = new HashMap<>();
-        Map<String, HeavenlyBody> test2 = new HashMap<>();
+        Map<Integer, HeavenlyBody> test2 = new HashMap<>();
         HeavenlyBody teaCup = new Planet("TeaCup", 2);
 
         test.put(teaCup, teaCup.getOrbitalPeriod());
-        test2.put("planet",teaCup);
+        test2.put(teaCup.hashCode(),teaCup);
 
         teaCup = new Asteroid("TeaCup", 3);
         test.put(teaCup, teaCup.getOrbitalPeriod());
-        test2.put("asteroid",teaCup);
+        test2.put(teaCup.hashCode(),teaCup);
+
+        //Another try at test 4: Attempting to add a duplicate to a
+        // Map results in the original being replaced by the new object.
+        for(Integer number : test2.keySet()) {
+            System.out.println(test2.get(number));
+        }
+        //Iterate print, then introduce duplicate type different orbitalP
+        HeavenlyBody dupe = new Planet("TeaCup", 85);
+        test2.put(dupe.hashCode(), dupe);
+        System.out.println(dupe);
+        for(Integer number : test2.keySet()) {
+            System.out.println(test2.get(number));
+        } //expecting Planet is replaced with orbitalPeriod85
+        System.out.println("Swoosh!");
+
 
         System.out.println("Ping!");
         for(HeavenlyBody body : test.keySet()) {
@@ -67,7 +82,7 @@ public class SetChallenge {
 
         //Test case 6: pass, same name different designations, on same map
         System.out.println("Pong!");
-        for(String body : test2.keySet()) {
+        for(int body : test2.keySet()) {
             System.out.println(body + " " + test2.get(body).getName() + test2.get(body).getOrbitalPeriod());
         }
 
@@ -88,8 +103,8 @@ public class SetChallenge {
 
         //Try that again on test2 map instead
         System.out.println("Plink!");
-        test2.put("asteroid", teaCup);
-        for(String body : test2.keySet()) {
+        test2.put(teaCup.hashCode(), teaCup);
+        for(int body : test2.keySet()) {
             System.out.println(body + " " + test2.get(body).getName()
                     + " " + test2.get(body).getOrbitalPeriod());
         }

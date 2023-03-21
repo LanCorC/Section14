@@ -61,6 +61,11 @@ public abstract class HeavenlyBody {
 //        System.out.println("hashCode() called");
         return this.name.hashCode() + 57 + bodyType.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return name + " (" + bodyType + "): " + orbitalPeriod;
+    }
 }
 
 class Star extends HeavenlyBody {

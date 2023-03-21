@@ -96,6 +96,8 @@ public class Main {
             System.out.println("\t" + moon.getName());
         }
 
+        System.out.println();
+
         HeavenlyBody pluto = new Planet("Pluto", 842);
         planets.add(pluto); //Test case 1: pass
         for(HeavenlyBody planet : planets) {
@@ -111,6 +113,8 @@ public class Main {
         HeavenlyBody betaMinor1 = new Planet("BetaMinor", 822);
         solarSystem.put(betaMinor1.getName(), betaMinor1);
         planets.add(betaMinor1);
+
+        System.out.println();
 
         HeavenlyBody betaMinor2 = new Asteroid("BetaMinor", 822);
         solarSystem.put(betaMinor2.getName(), betaMinor2);
@@ -131,11 +135,15 @@ public class Main {
                     + planet.getOrbitalPeriod());
         }
 
+        System.out.println();
+
         //Compare check (Test case 2): a.equals(b), b.equals(b), a.equals(a)
         //expecting: xSymmetry, xSymmetry, true
         System.out.println(betaMinor1.equals(betaMinor2) + " " +
                 betaMinor2.equals(betaMinor1) + " "
                 + betaMinor1.equals(betaMinor1));
+
+        System.out.println();
 
         //Test case 3: pass
         betaMinor1 = new Planet("BetaMinor", 1);

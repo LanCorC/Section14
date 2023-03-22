@@ -3,7 +3,7 @@ package crg.rla.challenge44Sets;
 public class Planet extends HeavenlyBody {
     // write code here
     public Planet(String name, double orbitalPeriod) {
-        super(name, HeavenlyBody.BodyTypes.PLANET, orbitalPeriod);
+        super(name, orbitalPeriod, HeavenlyBody.BodyTypes.PLANET);
     }
 
     @Override

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.197: Sets Challenge Part 2&#10;&#10;his implementation: overrode .addSatellite on Planet, the only one that needed a bodyType check!&#10;+ made HeavenlyBody abstract&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.198: Sets Challenge Part 3&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/challenge44Sets/DwarfPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/challenge44Sets/HeavenlyBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/challenge44Sets/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/challenge44Sets/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14190/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14190/HeavenlyBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14190/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14190/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crg/rla/section14190/SetChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14190/SetChallenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -226,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679371718241</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Completing Section 14.198: Sets Challenge Part 3&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1679374711605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679374711605</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +266,7 @@
     <MESSAGE value="Completing Section 14.195: Finishing Off Sets&#10;&#10;(Demonstrating .removeAll(), .containsAll(), and symmetric difference)&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.196: Sets Challenge Part 1&#10;&#10;I struggle to understand test case 6: using the objects as the keys, it replaces the old value. however, still maps to previous value. I don't know how to fix this.&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.197: Sets Challenge Part 2&#10;&#10;his implementation: overrode .addSatellite on Planet, the only one that needed a bodyType check!&#10;+ made HeavenlyBody abstract&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.197: Sets Challenge Part 2&#10;&#10;his implementation: overrode .addSatellite on Planet, the only one that needed a bodyType check!&#10;+ made HeavenlyBody abstract&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.198: Sets Challenge Part 3&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.198: Sets Challenge Part 3&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

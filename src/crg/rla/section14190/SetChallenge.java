@@ -66,12 +66,12 @@ public class SetChallenge {
         //Iterate print, then introduce duplicate type different orbitalP
         HeavenlyBody dupe = new Planet("TeaCup", 85);
         test2.put(dupe.hashCode(), dupe);
-        System.out.println(dupe);
+//        System.out.println(dupe.hashCode());
+//        System.out.println(dupe);
         for(Integer number : test2.keySet()) {
             System.out.println(test2.get(number));
         } //expecting Planet is replaced with orbitalPeriod85
         System.out.println("Swoosh!");
-
 
         System.out.println("Ping!");
         for(HeavenlyBody body : test.keySet()) {

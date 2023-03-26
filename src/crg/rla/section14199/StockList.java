@@ -70,6 +70,6 @@ public class StockList {
             totalCost += itemValue;
         }
 
-        return s + "Total stock value " + totalCost;
+        return s + "Total stock value " + String.format("%.2f", totalCost);
     }
 }

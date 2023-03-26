@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.201: Add a Basket&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.202: TreeMap and Unmodifiable Maps&#10;&#10;demonstrating use of UnmodifiableMap&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14199/MainChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/StockItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/StockList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +44,9 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.crg.rla.section14199.Main">
-    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.DogMain" />
+  <component name="RunManager" selected="Application.MainChallenge">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.Main" />
       <module name="Section14" />
       <extension name="coverage">
         <pattern>
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.Main" />
+    <configuration name="MainChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section14199.MainChallenge" />
       <module name="Section14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crg.rla.section14190.*" />
+          <option name="PATTERN" value="crg.rla.section14199.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainChallenge" />
         <item itemvalue="Application.crg.rla.section14199.Main" />
         <item itemvalue="Application.SetChallenge" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SetMain" />
-        <item itemvalue="Application.DogMain" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679825460553</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Completing Section 14.202: TreeMap and Unmodifiable Maps&#10;&#10;demonstrating use of UnmodifiableMap&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1679826938638</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679826938638</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +305,7 @@
     <MESSAGE value="Completing Section 14.199: Sorted Collections&#10;&#10;Setting up the code for examples&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.200: StockList Class with Maps&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.201: Add a Basket&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.201: Add a Basket&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.202: TreeMap and Unmodifiable Maps&#10;&#10;demonstrating use of UnmodifiableMap&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.202: TreeMap and Unmodifiable Maps&#10;&#10;demonstrating use of UnmodifiableMap&#10;&#10;added basket class&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

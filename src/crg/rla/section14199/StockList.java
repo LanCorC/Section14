@@ -25,7 +25,7 @@ public class StockList {
         return 0;
     }
 
-    public int sellStock(StockItem item, int quantity) {
+    public int sellStock(String item, int quantity) {
         StockItem inStock = list.getOrDefault(item, null);
 
         if((inStock != null) && (inStock.quantityInStock() >= quantity) &&
@@ -40,6 +40,14 @@ public class StockList {
 
     public StockItem get(String key) {
         return list.get(key);
+    }
+
+    public Map<String, Double> PriceList() {
+        Map<String, Double> prices = new LinkedHashMap<>();
+        for(Map.Entry<String, StockItem> item : list.entrySet()){
+            prices.put(item.getKey(), item.getValue().getPrice());
+        }
+        return Collections.unmodifiableMap(prices);
     }
 
     public Map<String, StockItem> Items() {

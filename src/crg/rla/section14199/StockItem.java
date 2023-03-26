@@ -55,8 +55,11 @@ public class StockItem implements Comparable<StockItem>{
 
     public void adjustStock(int quantityStock) {
         int newQuantity = this.quantityStock + quantityStock;
-        if (newQuantity >= 0) {
+        if (newQuantity >= 0 && newQuantity >= reserved) {
             this.quantityStock = newQuantity;
+        }
+        if (newQuantity < reserved) {
+            System.out.println("Process failure - not enough items available");
         }
     }
 
@@ -76,7 +79,7 @@ public class StockItem implements Comparable<StockItem>{
 
     @Override
     public String toString() {
-        return this.name + ": price " + price;
+        return this.name + ": price " + price  + ". Reserved: " + reserved;
     }
 
     @Override

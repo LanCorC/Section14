@@ -25,8 +25,12 @@ public class Basket {
                         item.getName() + ", please try again.");
                 return 0;
             }
+            if (list.get(item) == 0) {
+                list.remove(item);
+                return quantity;
+            }
             list.put(item, inBasket + quantity);
-            return inBasket;
+            return quantity;
         }
         return 0;
     }

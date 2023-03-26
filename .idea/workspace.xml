@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.199: Sorted Collections&#10;&#10;Setting up the code for examples&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14199/StockList.java" afterDir="false" />
+    <list default="true" id="3909e789-7194-481c-9ce7-134818885bcb" name="Changes" comment="Completing Section 14.200: StockList Class with Maps&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section14199/Basket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/StockItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crg/rla/section14199/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section14199/StockList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SetChallenge">
+  <component name="RunManager" selected="Application.crg.rla.section14199.Main">
     <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section14190.DogMain" />
       <module name="Section14" />
@@ -63,19 +63,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="crg.rla.section14190.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crg.rla.section14180.MapProgram" />
-      <module name="Section14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crg.rla.section14180.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="crg.rla.section14199.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section14199.Main" />
+      <module name="Section14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crg.rla.section14199.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.crg.rla.section14199.Main" />
         <item itemvalue="Application.SetChallenge" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SetMain" />
         <item itemvalue="Application.DogMain" />
-        <item itemvalue="Application.MapProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679457621966</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Completing Section 14.200: StockList Class with Maps&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending">
+      <created>1679823966231</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679823966231</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +288,7 @@
     <MESSAGE value="Completing Section 14.198: Sets Challenge Part 3&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section ~: Coding Exercise 44: Sets&#10;&#10;his implementation: added Key class to consolidate values that make each object different - allows as proxy 'key' in Maps (key:value).&#10;&#10;I think I solved my case4 issue  by using hashCode() which takes into account name and bodyType already?&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
     <MESSAGE value="Completing Section 14.199: Sorted Collections&#10;&#10;Setting up the code for examples&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.199: Sorted Collections&#10;&#10;Setting up the code for examples&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <MESSAGE value="Completing Section 14.200: StockList Class with Maps&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 14.200: StockList Class with Maps&#10;&#10;Setting up StockList class, touching on .unmodifiableMap() and other Map&lt;&gt; interactions&#10;&#10;note: all sections 12+ i complete has is not the latest 2023 re-master, still pending" />
   </component>
 </project>

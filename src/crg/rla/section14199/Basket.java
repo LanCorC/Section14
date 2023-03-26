@@ -25,7 +25,7 @@ public class Basket {
                         item.getName() + ", please try again.");
                 return 0;
             }
-            if (list.get(item) == 0) {
+            if (inBasket + quantity == 0) {
                 list.remove(item);
                 return quantity;
             }
@@ -64,6 +64,6 @@ public class Basket {
             totalCost += item.getKey().getPrice() * item.getValue();
         }
 
-        return s + "Total cost " + totalCost;
+        return s + "Total cost " + String.format("%.2f", totalCost);
     }
 }
